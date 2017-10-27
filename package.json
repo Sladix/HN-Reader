@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "hnreader:toggle"
   },
-  "repository": "https://github.com/sladix/hnreader",
+  "repository": "https://github.com/Sladix/HN-Reader",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -17,5 +17,12 @@
     "react" : "*",
     "react-dom" : "*",
     "request" : "*"
+  },
+  "configSchema": {
+    "refreshTime": {
+      "type": "integer",
+      "default": 60,
+      "description": "Refresh interval in seconds"
+    }
   }
 }
