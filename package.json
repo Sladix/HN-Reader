@@ -1,7 +1,7 @@
 {
   "name": "HNReader",
   "main": "./lib/hnreader",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Hacker News Reader with a timer",
   "keywords": [],
   "activationCommands": {
