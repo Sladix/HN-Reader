@@ -1,0 +1,78 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+#hubert {
+  width: 400px;
+  .panel-heading{
+    font-size: 2rem;
+  }
+  .panel-body{
+    padding:15px;
+    #hnlist{
+      #pagination{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div{
+          display: block;
+          padding: 5px;
+          background: #222;
+          width: 20%;
+          cursor: pointer;
+          & + div{
+            border-left:1px solid #444;
+          }
+          &.active{
+            background: black;
+            cursor: auto;
+          }
+        }
+      }
+      .controls{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div{
+          display: block;
+          padding: 5px;
+          background: #222;
+          width: 20%;
+          cursor: pointer;
+          & + div{
+            border-left:1px solid #444;
+          }
+          &.active{
+            background: black;
+            cursor: auto;
+          }
+        }
+      }
+      position:relative;
+      &.loading:before{
+        content:'';
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background:rgba(0,0,0,0.8);
+      }
+      &.loading:after{
+        content:'Loading...';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+    }
+    .news{
+      cursor: pointer;
+      &:hover{
+        color:white;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "HNReader",
+  "main": "./lib/hnreader",
+  "version": "0.0.1",
+  "description": "Hacker News Reader with a timer",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "hnreader:toggle"
+  },
+  "repository": "https://github.com/sladix/hnreader",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "react" : "*",
+    "react-dom" : "*",
+    "request" : "*"
+  }
+}

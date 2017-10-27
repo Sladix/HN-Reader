@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle HN Reader",
+        "command": "hnreader:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "HN Reader",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "hnreader:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
