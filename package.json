@@ -1,10 +1,9 @@
 {
   "name": "HNReader",
   "main": "./lib/hnreader",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Hacker News Reader with a timer",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "hnreader:toggle"
   },
@@ -14,9 +13,9 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "react" : "*",
-    "react-dom" : "*",
-    "request" : "*"
+    "react": "*",
+    "react-dom": "*",
+    "request": "*"
   },
   "configSchema": {
     "refreshTime": {
